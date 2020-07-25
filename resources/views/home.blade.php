@@ -38,6 +38,93 @@
         </div>
         <img src="{{asset('img/empresa.jpg')}}" alt="Empresa">
     </div>
+    <div class="home-frota">
+        <h1 class="home-tittle" style="margin-bottom: 40px"> CONHEÇA NOSSA FROTA </h1>
+        <div class="frota-item">
+            <img src="{{asset('img/frota/4.jpg')}}" alt="Nossa Frota" class="frota-img">
+            <div class="frota-text">
+                <h2>Moderna Tecnologia</h2>
+                <p>Estamos sempre precupados com a satisfação de nossos clientes. Em consequencia
+                     de grandes demandas de transporte, sabemos que o uso de tecnologia proporciona
+                      redução de custos, assim como redução de frete.</p>
+            </div>
+        </div>
+        <div class="frota-item flex-row-reverse">
+            <img src="{{asset('img/frota/2.jpg')}}" alt="Nossa Frota" class="frota-img">
+            <div class="frota-text">
+                <h2>Moderna Tecnologia</h2>
+                <p>Estamos sempre precupados com a satisfação de nossos clientes. Em consequencia
+                     de grandes demandas de transporte, sabemos que o uso de tecnologia proporciona
+                      redução de custos, assim como redução de frete.</p>
+            </div>
+        </div>
+        <div class="frota-item">
+            <img src="{{asset('img/frota/9.jpg')}}" alt="Nossa Frota" class="frota-img">
+            <div class="frota-text">
+                <h2>Profissionais Capacitados</h2>
+                <p>Nada adianta equipamentos sofisticados sem bons profissionais. Investimos fortemente
+                     em capacitação e qualificação para nossos profissionais.</p>
+            </div>
+        </div>
+    </div>
+    <div class="home-servicos">
+        <h1 class="home-tittle">CONHEÇA NOSSOS SERVIÇOS</h1>
+        <P style="text-align: center">Operamos com cargas fechadas das mais variadas, sendo embaladas em caixas, pallets,
+             containers, fardos, big bags ou granéis sólidos.</P>
+        <div class="home-img-servicos" style="margin-top: 40px">
+            <div id="materiais" class="home-img-servicos-bg">
+                <div class="home-servicos-content">
+                    <h2>MATERIAIS DE<br> CONSTRUÇÃO</h2>
+                </div>
+            </div>
+            <div id="moveis" class="home-img-servicos-bg">
+                <div class="home-servicos-content">
+                    <h2>MÓVEIS</h2>
+                </div>
+            </div>
+            <div id="madeiras" class="home-img-servicos-bg">
+                <div class="home-servicos-content">
+                    <h2>MADEIRAS</h2>
+                </div>
+            </div>
+            <div id="alimentos" class="home-img-servicos-bg">
+                <div class="home-servicos-content">
+                    <h2>ALIMENTOS</h2>
+                </div>
+            </div>
+        </div>
+        <div class="home-img-servicos">
+            <div id="siderurgicos" class="home-img-servicos-bg">
+                <div class="home-servicos-content">
+                    <h2>PRODUTOS<br> SIDERÚRGICOS</h2>
+                </div>
+            </div>
+            <div id="industria" class="home-img-servicos-bg">
+                <div class="home-servicos-content">
+                    <h2>MATÉRIAS PRIMAS<BR> INDUSTRIAIS</h2>
+                </div>
+            </div>
+            <div id="adubos" class="home-img-servicos-bg">
+                <div class="home-servicos-content">
+                    <h2>ADUBOS</h2>
+                </div>
+            </div>
+            <div id="logistica" class="home-img-servicos-bg">
+                <div class="home-servicos-content">
+                    <h2>LOGÍSTICA EM <br> GERAL</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home-parceiros">
+        <h1 class="home-tittle">PRINCIPAIS PARCEIROS</h1>
+        <div class="parceiros">
+            <img src="{{asset('img/parceiros/nutriave.png')}}" alt="">
+            <img src="{{asset('img/parceiros/vamtec.png')}}" alt="">
+            <img src="{{asset('img/parceiros/placas-do-brasil.png')}}" alt="">
+            <img src="{{asset('img/parceiros/roca.png')}}" alt="">
+        </div>
+    </div>
 </div>
 
 @endsection

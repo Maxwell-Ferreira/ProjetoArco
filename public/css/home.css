@@ -12,6 +12,7 @@
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 #carouselDegrade{
@@ -62,7 +63,7 @@
 }
 
 .home-empresa-text h1{
-    color: #0947a5;
+    color: #0947a5; 
 }
 
 .home-empresa-text p{
@@ -76,9 +77,139 @@
     margin-left: 60px;
 }
 
+.home-tittle{
+    text-align: center;
+    color: #0947a5;
+    padding: 0 30px;
+}
+
+.home-frota{
+    padding: 30px 0px;
+    background-color: rgb(245, 245, 245);
+}
+
+.frota-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frota-img{
+    width: 50%;
+}
+
+.frota-text{
+    margin: 0 60px;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.flex-row-reverse{
+    flex-direction: row-reverse;
+}
+
+.home-img-servicos{
+    display: flex;
+}
+
+.home-img-servicos-bg{
+    width: 25%;
+    height: 400px;
+    background-size: cover;
+}
+
+.home-servicos-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(000, 000, 000, 0.4);
+    height: 100%;
+    width: 100%;
+}
+
+.home-servicos-content h2{
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#materiais{
+    background-image: url("http://localhost:8000/img/servicos/materiais_contrucao.jpg");
+}
+
+#moveis{
+    background-image: url("http://localhost:8000/img/servicos/moveis.jpg");
+}
+
+#madeiras{
+    background-image: url("http://localhost:8000/img/servicos/madeira.jpg");
+}
+
+#alimentos{
+    background-image: url("http://localhost:8000/img/servicos/alimentos.jpg");
+}
+
+#siderurgicos{
+    background-image: url("http://localhost:8000/img/servicos/siderurgico.jpg");
+}
+
+#industria{
+    background-image: url("http://localhost:8000/img/servicos/industria.jpg");
+}
+
+#adubos{
+    background-image: url("http://localhost:8000/img/servicos/adubos.jpg");
+}
+
+#logistica{
+    background-image: url("http://localhost:8000/img/servicos/logistica.jpg");
+}
+
+.home-parceiros{
+    padding: 60px 0;
+}
+
+.parceiros{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.parceiros img{
+    width: 150px;
+    margin: 30px;
+}
+
 @media (max-width: 1200px){
     .home-empresa img{
         width: 430px;
         height: 310px;
+    }
+}
+
+@media (max-width: 950px){
+    .frota-item{
+        flex-direction: column;
+    }
+    .frota-img{
+        width: 440px;
+    }
+    .frota-text{
+        background-color: transparent;
+    }
+
+    .home-img-servicos{
+        flex-wrap: wrap;
+    }
+
+    .home-img-servicos-bg{
+        width: 50%;
+    }
+}
+
+@media(max-width: "500px"){
+    .home-img-servicos-bg{
+        width: 100%!important;
     }
 }

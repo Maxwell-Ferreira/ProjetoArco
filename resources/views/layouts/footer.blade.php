@@ -27,7 +27,7 @@
             </div>
             <div class="footer-top-item">
                 <h3 class="footer-item-tittle">
-                    Links
+                    LINKS
                 </h3>
                 <p>
                     <a href="#">Sobre a Empresa</a><br> 
