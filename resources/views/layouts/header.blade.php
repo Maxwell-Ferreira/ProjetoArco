@@ -26,23 +26,23 @@
         </button>
         <nav id="navbar">
             <ul id="nav-menu">
-                <li><a href="#">HOME</li></a>
-                <li><a href="#">SOBRE</li></a>
-                <li><a href="#">ESTRUTURA</li></a>
-                <li><a href="#">SERVIÇOS</li></a>
-                <li><a href="#">ORÇAMENTO</li></a>
-                <li><a href="#">CONTATO</li></a>
+                <li><a href="/" class="{{request()->routeIs('home') ? 'active' : ''}}">HOME</li></a>
+                <li><a href="/sobre" class="{{request()->routeIs('sobre') ? 'active' : ''}}">SOBRE</li></a>
+                <li><a href="/estrutura" class="{{request()->routeIs('estrutura') ? 'active' : ''}}">ESTRUTURA</li></a>
+                <li><a href="/servicos" class="{{request()->routeIs('servicos') ? 'active' : ''}}">SERVIÇOS</li></a>
+                <li><a href="/orcamento" class="{{request()->routeIs('orcamento') ? 'active' : ''}}">ORÇAMENTO</li></a>
+                <li><a href="/contato" class="{{request()->routeIs('contato') ? 'active' : ''}}">CONTATO</li></a>
             </ul>
         </nav>
     </div>
 </header>
 <div id="nav-hide">
     <ul id="nav-menu-hide" class="slide-bottom">
-        <li><a href="#">HOME</li></a>
-        <li><a href="#">SOBRE</li></a>
-        <li><a href="#">ESTRUTURA</li></a>
-        <li><a href="#">SERVIÇOS</li></a>
-        <li><a href="#">ORÇAMENTO</li></a>
-        <li><a href="#">CONTATO</li></a>
+        <li><a href="/" class="{{request()->routeIs('home') ? 'active' : ''}}">HOME</li></a>
+        <li><a href="/sobre" class="{{request()->routeIs('sobre') ? 'active' : ''}}">SOBRE</li></a>
+        <li><a href="/estrutura" class="{{request()->routeIs('estrutura') ? 'active' : ''}}">ESTRUTURA</li></a>
+        <li><a href="/servicos" class="{{request()->routeIs('servicos') ? 'active' : ''}}">SERVIÇOS</li></a>
+        <li><a href="/orcamento" class="{{request()->routeIs('orcamento') ? 'active' : ''}}">ORÇAMENTO</li></a>
+        <li><a href="/contato" class="{{request()->routeIs('contato') ? 'active' : ''}}">CONTATO</li></a>
     </ul>
 </div>

@@ -12,11 +12,15 @@
     <title>Pedra Branca - Transporte de Cargas</title>
 </head>
 <body>
-@component('layouts.header')
-@endcomponent
-@yield('content')
-@component('layouts.footer')
-@endcomponent
+
+    @component('layouts.header')
+    @endcomponent
+
+    @yield('content')
+
+    @component('layouts.footer')
+    @endcomponent
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

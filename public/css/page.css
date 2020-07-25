@@ -31,6 +31,7 @@ a{
     text-decoration: none;
 }
 
+
 #top-right{
     display: flex;
 }
@@ -100,6 +101,10 @@ a{
     border-top: 1px #000 solid;
 }
 
+#nav-menu a:hover, #nav-menu-hide a:hover{
+    color: #0947a5;
+}
+
 #nav-menu-hide li{
     list-style: none;
     padding: 5px;
@@ -108,6 +113,10 @@ a{
 #nav-menu li{
     list-style: none;
     padding: 0 10px;
+}
+
+.active{
+    color: #0947a5;
 }
 
 #menu-toggler{
