@@ -46,3 +46,39 @@
 #carousel-item-4{
     background-image: url("http://localhost:8000/img/banner/4.jpg");
 }
+
+.home-empresa{
+    margin: 30px 0;
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-empresa-text{
+    width: 400px;
+    color: rgb(75, 75, 75);
+    text-align: justify;
+}
+
+.home-empresa-text h1{
+    color: #0947a5;
+}
+
+.home-empresa-text p{
+    line-height: 2rem;
+}
+
+.home-empresa img{
+    width: 550px;
+    height: 396px;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+
+@media (max-width: 1200px){
+    .home-empresa img{
+        width: 430px;
+        height: 310px;
+    }
+}

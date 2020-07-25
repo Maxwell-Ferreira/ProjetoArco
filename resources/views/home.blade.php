@@ -28,6 +28,16 @@
             </div>
         </div>
     </div>
+    <div class="home-empresa">
+        <div class="home-empresa-text">
+            <h1>A EMPRESA</h1>
+            <p>Fundada no ano de 2002, fruto da fusão das Empresas Detonfer Transportes 
+                e SGB Transportes que atuavam de forma separadas desde o final da década 
+                de 80. A decisão dos sócios foi motivada pelo desejo de fortalecer a empresa,
+                 unificar procedimentos e gerar crescimento em volume e com qualidade</p>
+        </div>
+        <img src="{{asset('img/empresa.jpg')}}" alt="Empresa">
+    </div>
     <div style="height: 700px"></div>
 </div>
 
