@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="{{asset('css/page.css')}}">
+    <link rel="stylesheet" href="{{asset('css/home.css')}}">
     <title>Pedra Branca - Transporte de Cargas</title>
 </head>
 <body>
@@ -16,7 +18,7 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
     var status = 0;
     const navHide = document.getElementById('nav-hide');
@@ -40,10 +42,22 @@
 
     $(window).scroll(function() {
     if (this.pageYOffset >= 140) {
-        headerTop.style.display = "none";
-    } else {
-        headerTop.style.display = "flex";
+        headerTop.style.height = "0";
+        headerTop.style.padding = "0";
+    } else if (this.pageYOffset <140 && window.innerWidth >= 1200){
+        headerTop.style.height = "19px";
+        headerTop.style.padding = "8px 60px";
     }
+    });
+
+    // --------------------------------------------------------//
+
+    $(".carousel").slick({
+        dots: false,
+        arrows: false,
+        fade: true,
+        autoplay: true,
+        autoplayspeed: 500,
     });
 </script>
 </body>
