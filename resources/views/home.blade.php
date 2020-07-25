@@ -21,7 +21,7 @@
         </div>
         <div id="carousel-item-4" class="carousel-item">
             <div id="carouselDegrade">
-                <div class="carousel-text-right p-absolute">
+                <div class="carousel-text-right p-absolute" style="text-align: right">
                     <h1>Eficiencia em transportes!</h1>
                     <p>Contamos com uma frota com responsabilidade para com o cliente!</p>
                 </div>
@@ -38,7 +38,6 @@
         </div>
         <img src="{{asset('img/empresa.jpg')}}" alt="Empresa">
     </div>
-    <div style="height: 700px"></div>
 </div>
 
 @endsection

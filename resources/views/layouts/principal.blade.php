@@ -15,7 +15,8 @@
 @component('layouts.header')
 @endcomponent
 @yield('content')
-
+@component('layouts.footer')
+@endcomponent
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -26,7 +27,7 @@
     function menu(){
         if(status == 0){
             //navHide.style.borderTop = "#000 1px solid";
-            navHide.style.height = "195px";
+            navHide.style.height = "205px";
             status = 1;
         }else if(status == 1){
             navHide.style.height = "0px";
