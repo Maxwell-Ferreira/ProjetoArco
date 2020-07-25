@@ -29,7 +29,7 @@
                 <li><a href="/" class="{{request()->routeIs('home') ? 'active' : ''}}">HOME</li></a>
                 <li><a href="/sobre" class="{{request()->routeIs('sobre') ? 'active' : ''}}">SOBRE</li></a>
                 <li><a href="/estrutura" class="{{request()->routeIs('estrutura') ? 'active' : ''}}">ESTRUTURA</li></a>
-                <li><a href="/servicos" class="{{request()->routeIs('servicos') ? 'active' : ''}}">SERVIÇOS</li></a>
+                <li><a href="/#homeServicos">SERVIÇOS</li></a>
                 <li><a href="/orcamento" class="{{request()->routeIs('orcamento') ? 'active' : ''}}">ORÇAMENTO</li></a>
                 <li><a href="/contato" class="{{request()->routeIs('contato') ? 'active' : ''}}">CONTATO</li></a>
             </ul>

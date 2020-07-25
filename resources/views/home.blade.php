@@ -67,7 +67,7 @@
             </div>
         </div>
     </div>
-    <div class="home-servicos">
+    <div id="homeServicos" class="home-servicos">
         <h1 class="home-tittle">CONHEÇA NOSSOS SERVIÇOS</h1>
         <P style="text-align: center">Operamos com cargas fechadas das mais variadas, sendo embaladas em caixas, pallets,
              containers, fardos, big bags ou granéis sólidos.</P>
