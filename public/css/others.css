@@ -1,4 +1,6 @@
-.sobre-content, .estrutura-content, .servicos-content, .orcamento-content, .contato-content{
+.sobre-content, .estrutura-content, .servicos-content,
+    .orcamento-content, .contato-content, .trabalhe-content, 
+    .noticias-content{
     margin-top: 140px;
     padding: 60px;
 }

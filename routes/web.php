@@ -30,3 +30,11 @@ Route::get('/contato', function () {
     return view('contato');
 })->name('contato');
 
+Route::get('/trabalhe-conosco', function () {
+    return view('trabalheConosco');
+})->name('trabalheConosco');
+
+Route::get('/noticias', function () {
+    return view('noticias');
+})->name('noticias');
+

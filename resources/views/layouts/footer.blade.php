@@ -21,8 +21,8 @@
                     INTERAJA
                 </h3>
                 <p>
-                    <a href="#">Contato</a><br>
-                    <a href="#">Trabalhe Conosco</a>
+                    <a href="/contato">Contato</a><br>
+                    <a href="/trabalhe-conosco">Trabalhe Conosco</a>
                 </p>
             </div>
             <div class="footer-top-item">
@@ -30,12 +30,12 @@
                     LINKS
                 </h3>
                 <p>
-                    <a href="#">Sobre a Empresa</a><br> 
-                    <a href="#">Nossa Estrutura</a><br> 
+                    <a href="/empresa">Sobre a Empresa</a><br> 
+                    <a href="/estrutura">Nossa Estrutura</a><br> 
                     <a href="#">Certificações</a><br> 
-                    <a href="#">Serviços</a><br> 
-                    <a href="#">Oramentos</a><br> 
-                    <a href="#">Notícias</a><br> 
+                    <a href="/servicos">Serviços</a><br> 
+                    <a href="/orcamento">Oramentos</a><br> 
+                    <a href="/noticias">Notícias</a><br> 
                 </p>
             </div>
         </div>
