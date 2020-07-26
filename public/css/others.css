@@ -1,4 +1,4 @@
-.sobre-content, .estrutura-content, .servicos-content{
+.sobre-content, .estrutura-content, .servicos-content, .orcamento-content, .contato-content{
     margin-top: 140px;
     padding: 60px;
 }
@@ -68,6 +68,80 @@
 }
 
 
+.form-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-input{
+    padding: 0.5rem;
+    margin: 1rem 0.5rem;
+    border: rgb(212, 212, 212) 1px solid;
+    border-radius: 5px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label{
+    margin: 0 1rem;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w75{
+    width: 75%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w33{
+    width: 33.33%;
+}
+
+.w25{
+    width: 25%;
+}
+
+.btn{
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-enviar{
+    color: #fff;
+    background-color: #0947a5;
+}
+
+.contato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contato-dados{
+    width: 300px;
+    padding: 60px;
+}
+
+.contato-dados p{
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+    color:  rgb(75, 75, 75);
+}
+
+.contato-form{
+    width: 500px;
+    padding: 60px;
+}
+
 @media(max-width: 1070px){
     .sobre{
         flex-direction: column;
@@ -86,6 +160,12 @@
 
 @media(max-width: 594px){
     .estrutura-img img{
+        width: 100%;
+    }
+}
+
+@media(max-width: 870px){
+    .w25, .w33, .w50, .w75{
         width: 100%;
     }
 }
