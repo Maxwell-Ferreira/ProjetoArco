@@ -22,19 +22,19 @@ Route::get('/servicos', function () {
     return view('servicos');
 })->name('servicos');
 
-Route::get('/orcamento', function () {
-    return view('orcamento');
-})->name('orcamento');
+Route::get('/orcamento', 'orcamentoController@index')->name('orcamento');
 
-Route::get('/contato', function () {
-    return view('contato');
-})->name('contato');
+Route::get('/contato', 'contatoController@index')->name('contato');
 
-Route::get('/trabalhe-conosco', function () {
-    return view('trabalheConosco');
-})->name('trabalheConosco');
+Route::get('/trabalhe-conosco', 'trabalheConoscoController@index')->name('trabalheConosco');
+Route::post('/trabalhe-conosco', 'TrabalheConoscoController@store');
 
-Route::get('/noticias', function () {
-    return view('noticias');
-})->name('noticias');
+Route::get('/noticias', 'NoticiaController@index')->name('noticias');
 
+Route::get('/admin', 'OrcamentoAdmin@index');
+Route::get('/admin/mensagens', 'MensagemAdmin@index');
+Route::get('/admin/curriculos', 'CurriculoAdmin@index');
+Route::get('/admin/noticias', 'NoticiasAdmin@index');
+Route::get('/admin/nova-noticia', 'NoticiasAdmin@novaNoticia');
+Route::post('/admin/nova-noticia', 'NoticiasAdmin@salvarNoticia');
+Route::delete('/admin/delNoticia/{id}', 'NoticiasAdmin@destroy');

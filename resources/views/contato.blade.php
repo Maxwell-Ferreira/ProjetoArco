@@ -27,7 +27,7 @@
                     (027) 99277 2200</p>
             </div>
             <div class="contato-form">
-                <form action="/contato" method="POST" id="formContato" name="formContato">
+                <form id="formContato" name="formContato">
                     @csrf
                     <div class="form-flex">
                         <div class="form-group w100">
@@ -48,6 +48,7 @@
                         </div>
                         <div class="form-group">
                             <button class="btn btn-enviar">Enviar</button>
+                            <div class="loading"></div>
                         </div>
                     </div>
                 </form>
