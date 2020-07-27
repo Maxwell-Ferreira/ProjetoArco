@@ -8,6 +8,12 @@ use App\Orcamento;
 
 class OrcamentoAdmin extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware(\App\Http\Middleware\AdminArea::class);
+    }
+
     public function index(){
         $orcamentos = DB::select('select o.*, f.tipo_frete 
             from fretes as f inner join orcamentos as o

@@ -38,3 +38,15 @@ Route::get('/admin/noticias', 'NoticiasAdmin@index');
 Route::get('/admin/nova-noticia', 'NoticiasAdmin@novaNoticia');
 Route::post('/admin/nova-noticia', 'NoticiasAdmin@salvarNoticia');
 Route::delete('/admin/delNoticia/{id}', 'NoticiasAdmin@destroy');
+Route::get('/admin/login', function(){
+    return view('admin.login');
+})->name('admLogin');
+Route::post('/admin/login', 'LoginController@login');
+Route::get('/admin/login/esqueceu-senha', 'LoginController@esqueceuSenha');
+Route::get('/admin/logout', function(){
+    session()->flush();
+    return redirect('/admin');
+});
+
+Route::get('/admin/mudar-senha', 'MudarSenha@index');
+Route::post('/admin/mudar-senha', 'MudarSenha@update');

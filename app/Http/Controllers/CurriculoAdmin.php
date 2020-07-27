@@ -9,6 +9,11 @@ use App\Curriculo;
 class CurriculoAdmin extends Controller
 {
 
+    public function __construct()
+    {
+        $this->middleware(\App\Http\Middleware\AdminArea::class);
+    }
+
     public function index(){
 
         $curriculos = DB::select('select c.*, e.sigla, s.sexo, ec.estado_civil

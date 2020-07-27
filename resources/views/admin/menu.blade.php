@@ -34,6 +34,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="/admin/noticias">Notícias</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/admin/mudar-senha">Alterar Senha</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/admin/logout">Sair</a>
+          </li>
           </ul>
         </div>
       </nav>

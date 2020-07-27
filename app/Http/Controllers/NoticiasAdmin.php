@@ -7,6 +7,12 @@ use App\Noticia;
 
 class NoticiasAdmin extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware(\App\Http\Middleware\AdminArea::class);
+    }
+
     public function index($dados = null){
         $noticias = Noticia::all();
         return view('admin.noticias')->with('noticias', $noticias)->with('dados', $dados);

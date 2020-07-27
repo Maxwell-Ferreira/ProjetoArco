@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login - Adm</title>
+    <title>Alterar Senha - Adm</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 <body>
@@ -13,22 +13,18 @@
             <div class="col-md-6 offset-md-3">
                 <div class="card">
                     <div class="card-body">
-                        <h2 class="text-center card-tittle">Login Adm</h2>
-                        <form action="/admin/login" method="post">
+                        <h3 class="text-center card-tittle" style="margin: 30px 0;">Alterar a Senha de login de ADM</h3>
+                        <form action="/admin/mudar-senha" method="post">
                             @csrf
                             <div class="form-group">
-                                <label for="login">Login:</label>
-                                <input id="login" name="login" type="text" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="senha">Senha:</label>
+                                <label for="senha">Nova senha:</label>
                                 <input id="senha" name="senha" type="password" class="form-control">
-                                <a href="/admin/login/esqueceu-senha">Esqueci a senha</a>
                             </div>
                             <div class="form-group">
-                                <button class="btn btn-primary">Login</button>
+                                <button class="btn btn-primary">Salvar</button>
                             </div>
                         </form>
+                        <a href="/admin">Voltar para a tela de admin</a>
                     </div>
                     <div class="card-footer">
                         @if(isset($msg))
