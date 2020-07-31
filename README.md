@@ -17,10 +17,7 @@
     <li>php artisan serve //Abre o projeto na porta 8000</li>
 </ul>
 <p>Pronto! Agora é só abrir o navegador e usar a url localhost:8000</p>
-<p>
-    Para acessar a área de administrador, basta usar a url localhost:8000/admin e fazer o login com o usuario 
-    <i>admin</i> e a senha <i>AdminAccess</i> .
-</p>
+<p>Para acessar a área de administrador, basta usar a url localhost:8000/admin</p>
 <br><br>
 <p>Autor: Maxwell Ferreira</p>
 <p>Desenvolvido em: 27/07/2020</p>
