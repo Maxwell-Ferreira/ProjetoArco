@@ -1,8 +1,7 @@
 <h2>Projeto criado para o processo seletivo da empresa Arco Informática.</h2>
-<p>Descrição: Site feito a partir do site http://pedrabranca.arcoinformatica.com.br/ , onde o site original foi completamente refeito do zero, aplicando algumas alterações que deixaram o site melhor, sendo elas:</p>
+<p>Descrição: Site feito a partir do site http://pedrabranca.arcoinformatica.com.br/ , onde o site original foi completamente refeito do zero.</p>
+<p>Recursos adicionados ao site:</p>
 <ul>
-    <li>Correção de partes do site com problemas de responsividade;</li>
-    <li>Correção do menu de links superior;</li>
     <li>Criação de uma área de administrador, aonde o admin pode vizualizar todos os formulários enviados para o site e gerenciar as notícias do site;</li>
     <li>Sistema de resposta automatica via email para o usuario que enviar um formulário;</li>
     <li>Criação da página de noticias, as quais o administrador poderá gerenciá-las pela área de administrador</li>
